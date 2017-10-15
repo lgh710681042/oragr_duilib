@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window size="980,560" mininfo="600,400">
+	<VerticalLayout height="32" bkcolor="#FFFFFFFF" >
+		<!-- 标题 -->
+		<HorizontalLayout height="32" bkcolor="#FFFFFFFF">
+			<VerticalLayout></VerticalLayout>
+			<VerticalLayout width="25">
+				<Button name="closebtn"   height ="24" width="24" float="true" normalimage="res\login\close_normal.png" hotimage="res\login\close_hover.png"/>
+			</VerticalLayout>
+		</HorizontalLayout>
+		<HorizontalLayout height="465" bkcolor="#FFFFFFFF">
+			<VerticalLayout float="true" pos="25,10,0,0" height="443" width="560" bkimage="res\login\login.jpg">
+			</VerticalLayout>
+			<VerticalLayout float="true" pos="595,10,0,0" height="465" width="349" bkcolor="#FFFAFAFA" >
+        <HorizontalLayout padding="10,50,0,0" width="300" height="28">
+          <Button name="BtnUserName" bkimage="res\login\User.png" width="28" height="28" bkcolor="#FFFFFFFF"/>
+          <Edit name="editUserName" textpadding="5,5,5,5" bkcolor="#FFFFFFFF" height="28" />
+        </HorizontalLayout>
+        <HorizontalLayout padding="10,5,0,0" width="300" height="28">
+          <Button name="BtnPassword" bkimage="res\login\Lock.png" width="28" height="28" bkcolor="#FFFFFFFF"/>
+          <Edit name="editPasswrod" password="true" textpadding="5,5,5,5" bkcolor="#FFFFFFFF" height="28"/>
+        </HorizontalLayout>
+        <Button name="BtnLogin" padding="10,5,0,0" text="登录" bkcolor="#FF34A74B" width="300" height="28"/>
+      </VerticalLayout>
+		</HorizontalLayout>
+	</VerticalLayout>
+
+</Window>
